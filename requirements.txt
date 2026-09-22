@@ -1,0 +1,9 @@
+# El simulador no usa dependencias externas: todo se resuelve con la biblioteca
+# estandar de Python 3.10 o superior.
+#
+#   http.server   -> panel web
+#   threading     -> reloj de la simulacion
+#   csv, argparse -> entrada de datos y linea de comandos
+#
+# No hay nada que instalar:
+#   python main.py
