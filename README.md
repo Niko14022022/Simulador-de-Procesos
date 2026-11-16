@@ -7,6 +7,10 @@ Simulador de los procesos de un sistema operativo: planificacion, gestion y
 visualizacion de recursos (CPU, memoria y E/S), modificacion de parametros en
 tiempo real y registro de actividad.
 
+![Panel del simulador en ejecución](docs/capturas/panel.png)
+
+> **EN:** Operating system process simulator in Python (no external dependencies): CPU scheduling (FCFS, SJF, SRTF, Round Robin, Priority), memory management, swapping and I/O, with a live web dashboard and a terminal dashboard. Final project for Operating Systems I, UACA (Costa Rica).
+
 **Sin dependencias externas.** Solo requiere Python 3.10 o superior.
 
 ---
@@ -37,6 +41,13 @@ python main.py --memoria 256 --intercambio desactivado
 ```
 
 `python main.py --help` lista todas las opciones y sus rangos validos.
+
+<details>
+<summary>Ver el panel completo</summary>
+
+![Panel completo](docs/capturas/panel_completo.png)
+
+</details>
 
 ---
 
